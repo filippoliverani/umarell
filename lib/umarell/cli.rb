@@ -10,7 +10,6 @@ module Umarell
     'rubocop' => [],
     'erblint' => [],
     'reek' => [],
-    'rails_best_practices': [],
     'fasterer' => []
   }.freeze
 
