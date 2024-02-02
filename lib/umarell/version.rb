@@ -1,7 +1,9 @@
 # frozen_string_literal: true
 
 module Umarell
+  VERSION = '1.4.0'
+
   module Version
-    STRING = '1.5.0'
+    VERSION
   end
 end
