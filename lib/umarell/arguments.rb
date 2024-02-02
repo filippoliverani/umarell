@@ -60,7 +60,7 @@ module Umarell
 
     def on_version(opts)
       opts.on_tail('-v', '--version', 'Show version') do
-        exit_with_message(Version::STRING)
+        exit_with_message(VERSION)
       end
     end
 

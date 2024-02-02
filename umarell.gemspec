@@ -1,11 +1,10 @@
 # frozen_string_literal: true
 
-$LOAD_PATH.unshift File.expand_path('lib', __dir__)
-require 'umarell/version'
+require './lib/umarell/version'
 
 Gem::Specification.new do |s|
   s.name = 'umarell'
-  s.version = Umarell::Version::STRING
+  s.version = Umarell::VERSION
   s.platform = Gem::Platform::RUBY
   s.required_ruby_version = '>= 3.0.0'
   s.authors = ['Filippo Liverani']
