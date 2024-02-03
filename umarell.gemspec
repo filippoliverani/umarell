@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.executables = ['umarell']
   s.require_path = 'lib'
   s.extra_rdoc_files = ['LICENSE.txt', 'README.md']
-  s.homepage = 'https://github.com/filippo/umarell'
+  s.homepage = 'https://github.com/filippoliverani/umarell'
   s.licenses = ['MIT']
   s.summary = 'All in one Ruby static code analyzer'
 
